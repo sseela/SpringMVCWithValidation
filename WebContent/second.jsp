@@ -5,4 +5,4 @@
 	Email: <form:input path="email"/><form:errors path="email"></form:errors><br/>
 	Job: <form:input path="occupation"/><form:errors path="occupation"></form:errors><br/>
 	<input type="submit">
-</form:form>
+</form:form> 

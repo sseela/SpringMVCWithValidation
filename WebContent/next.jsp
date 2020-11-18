@@ -1,1 +1,1 @@
-${user.name} ${msg}
+${user.name} ${msg} 

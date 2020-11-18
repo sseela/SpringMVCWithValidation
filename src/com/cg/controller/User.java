@@ -7,7 +7,7 @@ import org.hibernate.validator.constraints.Email;
 import org.hibernate.validator.constraints.NotBlank;
 
 public class User {
-
+ 
 	@NotNull(message="name cannot be empty")
 	@Size(min=2, max=7, message="lenght of the name should be between 2 and 7")
 	private String name;

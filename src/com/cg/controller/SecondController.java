@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @Controller
 @RequestMapping(value="/MVCWithValidation")
 public class SecondController {
-
+ 
 	@RequestMapping(value="/showView", method = RequestMethod.GET)
 	public String justMethod(Model model) throws Exception {
 		model.addAttribute("user", new User());
